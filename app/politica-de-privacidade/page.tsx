@@ -3,9 +3,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Política de Privacidade",
   description:
-    "Política de Privacidade da Via Pet. Saiba como tratamos seus dados pessoais em conformidade com a LGPD.",
+    "Política de Privacidade da Sua Pet. Saiba como tratamos seus dados pessoais em conformidade com a LGPD.",
   alternates: {
-    canonical: "https://viapet.net/politica-de-privacidade",
+    canonical: "https://suapet.vercel.app/politica-de-privacidade",
   },
 };
 
@@ -29,7 +29,7 @@ export default function PoliticaPrivacidadePage() {
                 1. Introdução
               </h2>
               <p>
-                A Via Pet valoriza a privacidade de seus clientes e visitantes.
+                A Sua Pet valoriza a privacidade de seus clientes e visitantes.
                 Esta Política de Privacidade descreve como coletamos, usamos,
                 armazenamos e protegemos suas informações pessoais, em
                 conformidade com a Lei Geral de Proteção de Dados (LGPD — Lei
@@ -71,7 +71,7 @@ export default function PoliticaPrivacidadePage() {
                 4. Compartilhamento de Dados
               </h2>
               <p>
-                A Via Pet não vende, aluga ou compartilha suas informações
+                A Sua Pet não vende, aluga ou compartilha suas informações
                 pessoais com terceiros, exceto quando necessário para:
               </p>
               <ul className="list-disc pl-5 mt-2 space-y-1">
@@ -133,9 +133,9 @@ export default function PoliticaPrivacidadePage() {
                 política, entre em contato:
               </p>
               <p className="mt-2">
-                E-mail: contato@viapet.com.br
+                E-mail: contato@suapet.vercel.app
                 <br />
-                WhatsApp: (62) 9 9290-5701
+                WhatsApp: (11) 19999-9999
               </p>
             </div>
 

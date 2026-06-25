@@ -5,9 +5,9 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Contato",
   description:
-    "Fale com a Via Pet. Atendimento em Goiânia via WhatsApp, telefone ou e-mail. Respondemos rápido.",
+    "Fale com a Sua Pet. Atendimento em Boa Vista via WhatsApp, telefone ou e-mail. Respondemos rápido.",
   alternates: {
-    canonical: "https://viapet.net/contato",
+    canonical: "https://suapet.vercel.app/contato",
   },
 };
 
@@ -15,22 +15,22 @@ const infos = [
   {
     icon: Phone,
     label: "Telefone",
-    value: "(62) 3088-6233",
-    href: "tel:6230886233",
+    value: "(11) 0000-0000",
+    href: "tel:1100000000",
     color: "bg-blue-50 text-blue-600",
   },
   {
     icon: MessageCircle,
     label: "WhatsApp",
-    value: "(62) 9 9290-5701",
-    href: "https://wa.me/556292905701",
+    value: "(11) 19999-9999",
+    href: "https://wa.me/5511199999999",
     color: "bg-green-50 text-green-600",
   },
   {
     icon: Mail,
     label: "E-mail",
-    value: "contato@viapet.com.br",
-    href: "mailto:contato@viapet.com.br",
+    value: "contato@suapet.vercel.app",
+    href: "mailto:contato@suapet.vercel.app",
     color: "bg-amber-50 text-amber-600",
   },
 ];
@@ -102,12 +102,11 @@ export default function ContatoPage() {
                     Endereço
                   </p>
                   <p className="text-sm text-gray-500">
-                    Praça Wilson Sales, 44
+                    Rua Peterson Sabaró, 44
                   </p>
                   <p className="text-sm text-gray-500">
-                    Nova Suíça, Goiânia - GO
+                    Vila Russa, Boa Vista - RR
                   </p>
-                  <p className="text-sm text-gray-500">CEP: 74280-370</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">

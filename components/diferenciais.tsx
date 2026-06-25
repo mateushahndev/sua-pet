@@ -11,7 +11,7 @@ const itens = [
     icon: Truck,
     title: "Entrega Rápida e Confiável",
     description:
-      "Chega no prazo certo, sem atraso, sem produto errado. Entrega em toda Goiânia com agilidade pra você não ficar na mão.",
+      "Chega no prazo certo, sem atraso, sem produto errado. Entrega em toda Boa Vista com agilidade pra você não ficar na mão.",
   },
   {
     icon: CreditCard,

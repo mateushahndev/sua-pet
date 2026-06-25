@@ -5,9 +5,9 @@ import { ProdutoCard } from "@/components/produto-card";
 export const metadata: Metadata = {
   title: "Eletrônicos para Pet",
   description:
-    "Fontes de água, tosadores elétricos, aquecedores e outros eletrônicos para seu pet. Produtos de qualidade com entrega em Goiânia.",
+    "Fontes de água, tosadores elétricos, aquecedores e outros eletrônicos para seu pet. Produtos de qualidade com entrega em Boa Vista.",
   alternates: {
-    canonical: "https://viapet.net/produtos/eletronicos",
+    canonical: "https://suapet.vercel.app/produtos/eletronicos",
   },
 };
 
@@ -18,18 +18,21 @@ const produtos = [
     parcela: "ou 6x de R$ 29,98",
     categoria: "Eletrônicos",
     oferta: true,
+    imagem: "/produtos/fonte-de-agua-eletrica-pet-2l.webp",
   },
   {
     nome: "Tosador Elétrico Profissional Pet",
     preco: "R$ 249,90",
     parcela: "ou 6x de R$ 41,65",
     categoria: "Eletrônicos",
+    imagem: "/produtos/tosador-eletrico-profissional-pet.webp",
   },
   {
     nome: "Aquecedor para Aquário 100W",
     preco: "R$ 89,90",
     parcela: "ou 4x de R$ 22,48",
     categoria: "Eletrônicos",
+    imagem: "/produtos/aquecedor-para-aquario-100w.webp",
   },
 ];
 

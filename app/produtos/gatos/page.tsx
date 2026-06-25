@@ -5,9 +5,9 @@ import { ProdutoCard } from "@/components/produto-card";
 export const metadata: Metadata = {
   title: "Produtos para Gatos",
   description:
-    "Rações premium, areia sanitária, arranhadores, brinquedos e tudo para seu felino. Produtos de qualidade com entrega rápida em Goiânia.",
+    "Rações premium, areia sanitária, arranhadores, brinquedos e tudo para seu felino. Produtos de qualidade com entrega rápida em Boa Vista.",
   alternates: {
-    canonical: "https://viapet.net/produtos/gatos",
+    canonical: "https://suapet.vercel.app/produtos/gatos",
   },
 };
 
@@ -17,36 +17,42 @@ const produtos = [
     preco: "R$ 139,90",
     parcela: "ou 6x de R$ 23,32",
     categoria: "Gatos",
+    imagem: "/produtos/racao-whiskas-gatos-adultos-10kg.webp",
   },
   {
     nome: "Ração Golden Gatos Castrados 10kg",
     preco: "R$ 159,90",
     parcela: "ou 6x de R$ 26,65",
     categoria: "Gatos",
+    imagem: "/produtos/racao-golden-gatos-castrados-10kg.webp",
   },
   {
     nome: "Areia Sanitária Pipicat 4kg",
     preco: "R$ 19,90",
     parcela: "ou 2x de R$ 9,95",
     categoria: "Gatos",
+    imagem: "/produtos/racao-golden-gatos-castrados-10kg.webp",
   },
   {
     nome: "Arranhador para Gatos Torre 60cm",
     preco: "R$ 129,90",
     parcela: "ou 5x de R$ 25,98",
     categoria: "Gatos",
+    imagem: "/produtos/arranhador-para-gatos-torre-60cm.webp",
   },
   {
     nome: "Ração Úmida Whiskas Gatos Sachê",
     preco: "R$ 4,90",
     parcela: "à vista",
     categoria: "Gatos",
+    imagem: "/produtos/racao-umida-whiskas-gatos-sache.webp",
   },
   {
     nome: "Bolinha Catnip Gatos",
     preco: "R$ 14,90",
     parcela: "à vista",
     categoria: "Brinquedos",
+    imagem: "/produtos/bolinha-catnip-gatos.webp",
   },
   {
     nome: "Fonte de Água Elétrica Pet 2L",
@@ -54,12 +60,14 @@ const produtos = [
     parcela: "ou 6x de R$ 29,98",
     categoria: "Eletrônicos",
     oferta: true,
+    imagem: "/produtos/fonte-de-agua-eletrica-pet-2l.webp",
   },
   {
     nome: "Shampoo Pet Clean Cães e Gatos 500ml",
     preco: "R$ 29,90",
     parcela: "ou 3x de R$ 9,97",
     categoria: "Higiene",
+    imagem: "/produtos/shampoo-pet-clean-caes-e-gatos-500ml.webp",
   },
 ];
 

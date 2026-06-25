@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Acessórios diversos, kits de viagem, ferramentas de higiene e mais para seu pet. Confira nossa seleção completa.",
   alternates: {
-    canonical: "https://viapet.net/produtos/outros",
+    canonical: "https://suapet.vercel.app/produtos/outros",
   },
 };
 
@@ -17,18 +17,14 @@ const produtos = [
     preco: "R$ 19,90",
     parcela: "à vista",
     categoria: "Outros",
+    imagem: "/produtos/cortador-de-unhas-pet.webp",
   },
   {
     nome: "Escova Pet Autolimpante",
     preco: "R$ 39,90",
     parcela: "ou 2x de R$ 19,95",
     categoria: "Outros",
-  },
-  {
-    nome: "Kit Viagem Pet Cães e Gatos",
-    preco: "R$ 89,90",
-    parcela: "ou 4x de R$ 22,48",
-    categoria: "Outros",
+    imagem: "/produtos/escova-autolimpante.webp",
   },
 ];
 

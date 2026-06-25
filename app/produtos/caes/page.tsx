@@ -5,9 +5,9 @@ import { ProdutoCard } from "@/components/produto-card";
 export const metadata: Metadata = {
   title: "Produtos para Cães",
   description:
-    "Rações premium, acessórios, medicamentos, camas, brinquedos e tudo para seu cachorro. As melhores marcas com preços justos e entrega em Goiânia.",
+    "Rações premium, acessórios, medicamentos, camas, brinquedos e tudo para seu cachorro. As melhores marcas com preços justos e entrega em Boa Vista.",
   alternates: {
-    canonical: "https://viapet.net/produtos/caes",
+    canonical: "https://suapet.vercel.app/produtos/caes",
   },
 };
 
@@ -18,12 +18,14 @@ const produtos = [
     parcela: "ou 6x de R$ 31,65",
     categoria: "Cães",
     oferta: true,
+    imagem: "/produtos/racao-royal-canin-caes-adultos-15kg.webp",
   },
   {
     nome: "Ração Golden Formula Cães Adultos 15kg",
     preco: "R$ 149,90",
     parcela: "ou 6x de R$ 24,98",
     categoria: "Cães",
+    imagem: "/produtos/racao-golden-formula-caes-adultos-15kg.webp",
   },
   {
     nome: "Brinquedo Kong Classic Médio",
@@ -31,6 +33,7 @@ const produtos = [
     parcela: "ou 4x de R$ 22,48",
     categoria: "Cães",
     oferta: true,
+    imagem: "/produtos/brinquedo-kong-classic-medio.webp",
   },
   {
     nome: "Coleira Antipulgas Cães e Gatos",
@@ -38,18 +41,21 @@ const produtos = [
     parcela: "ou 3x de R$ 13,30",
     categoria: "Farmácia",
     oferta: true,
+    imagem: "/produtos/coleira-antipulgas-caes-e-gatos.webp",
   },
   {
     nome: "Comedouro Duplo Inox Cães M",
     preco: "R$ 79,90",
     parcela: "ou 4x de R$ 19,98",
     categoria: "Acessórios",
+    imagem: "/produtos/comedouro-duplo-inox-caes-m.webp",
   },
   {
     nome: "Antipulgas Bravecto Cães 20-40kg",
     preco: "R$ 199,90",
     parcela: "ou 6x de R$ 33,32",
     categoria: "Farmácia",
+    imagem: "/produtos/antipulgas-bravecto-caes-20-40kg.webp",
   },
   {
     nome: "Cama Pet Confort Azul M",
@@ -57,36 +63,28 @@ const produtos = [
     parcela: "ou 6x de R$ 24,98",
     categoria: "Acessórios",
     oferta: true,
+    imagem: "/produtos/cama-pet-confort-azul-m.webp",
   },
   {
     nome: "Tapete Higiênico Cães 30un",
     preco: "R$ 69,90",
     parcela: "ou 3x de R$ 23,30",
     categoria: "Higiene",
+    imagem: "/produtos/tapete-higienico-caes-30un.webp",
   },
   {
     nome: "Vermífugo Drontal Cães",
     preco: "R$ 34,90",
     parcela: "ou 2x de R$ 17,45",
     categoria: "Farmácia",
-  },
-  {
-    nome: "Fralda Pet Sec Confort G 30un",
-    preco: "R$ 59,90",
-    parcela: "ou 3x de R$ 19,97",
-    categoria: "Higiene",
+    imagem: "/produtos/vermífugo-drontal-caes.webp",
   },
   {
     nome: "Shampoo Pet Clean Cães e Gatos 500ml",
     preco: "R$ 29,90",
     parcela: "ou 3x de R$ 9,97",
     categoria: "Higiene",
-  },
-  {
-    nome: "Guia Retrátil Cães 5m",
-    preco: "R$ 69,90",
-    parcela: "ou 3x de R$ 23,30",
-    categoria: "Acessórios",
+    imagem: "/produtos/shampoo-pet-clean-caes-e-gatos-500ml.webp",
   },
 ];
 

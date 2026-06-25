@@ -20,13 +20,13 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
-          <Link href="/" className="flex-shrink-0" aria-label="Via Pet - Página inicial">
+          <Link href="/" className="flex-shrink-0" aria-label="Sua Pet - Página inicial">
             <Image
-              src="/logo.png"
-              alt="Via Pet"
+              src="/petlogo.webp"
+              alt="Sua Pet"
               width={200}
               height={95}
-              className="h-16 lg:h-[72px] w-auto"
+              className="h-12 lg:h-14 w-auto"
               priority
             />
           </Link>
@@ -48,7 +48,7 @@ export default function Header() {
           {/* Desktop CTA */}
           <div className="hidden lg:flex items-center gap-3">
             <Link
-              href="https://wa.me/556292905701"
+              href="https://wa.me/5511199999999"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#20bd5a] text-white px-5 py-2.5 rounded-xl text-sm font-semibold shadow-md shadow-[#25D366]/20 hover:shadow-lg hover:shadow-[#25D366]/30 transition-all hover:-translate-y-0.5"
@@ -89,7 +89,7 @@ export default function Header() {
               </Link>
             ))}
             <Link
-              href="https://wa.me/556292905701"
+              href="https://wa.me/5511199999999"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#20bd5a] text-white px-5 py-3 rounded-xl text-sm font-semibold mt-2 shadow-md shadow-[#25D366]/20"

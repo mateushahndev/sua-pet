@@ -5,9 +5,9 @@ import { ProdutoCard } from "@/components/produto-card";
 export const metadata: Metadata = {
   title: "Produtos para Aves",
   description:
-    "Alpiste, ração extrusada, gaiolas, viveiros, poleiros e acessórios para aves. Tudo com preço justo e entrega em Goiânia.",
+    "Alpiste, ração extrusada, gaiolas, viveiros, poleiros e acessórios para aves. Tudo com preço justo e entrega em Boa Vista.",
   alternates: {
-    canonical: "https://viapet.net/produtos/aves",
+    canonical: "https://suapet.vercel.app/produtos/aves",
   },
 };
 
@@ -17,36 +17,42 @@ const produtos = [
     preco: "R$ 8,90",
     parcela: "à vista",
     categoria: "Aves",
+    imagem: "/produtos/alpiste-mago-500g.webp",
   },
   {
     nome: "Gaiola para Calopsita M",
     preco: "R$ 199,90",
     parcela: "ou 6x de R$ 33,32",
     categoria: "Aves",
+    imagem: "/produtos/gaiola-para-calopsita-m.webp",
   },
   {
     nome: "Ração Megazoo Pássaros 500g",
     preco: "R$ 12,90",
     parcela: "à vista",
     categoria: "Aves",
+    imagem: "/produtos/racao-megazoo-passaros-500g.webp",
   },
   {
     nome: "Viveiro para Aves P",
     preco: "R$ 89,90",
     parcela: "ou 4x de R$ 22,48",
     categoria: "Aves",
+    imagem: "/produtos/viveiro-para-aves-p.webp",
   },
   {
     nome: "Poleiro Natural para Calopsita",
     preco: "R$ 24,90",
     parcela: "ou 2x de R$ 12,45",
     categoria: "Aves",
+    imagem: "/produtos/poleiro-natural-para-clopsita.webp",
   },
   {
     nome: "Ração Extrusada Papagaio 1kg",
     preco: "R$ 39,90",
     parcela: "ou 3x de R$ 13,30",
     categoria: "Aves",
+    imagem: "/produtos/racao-extrusada-papagaio-1kg.webp",
   },
 ];
 

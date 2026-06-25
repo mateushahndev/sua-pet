@@ -21,15 +21,15 @@ export default function Footer() {
           <div>
             <div className="bg-white rounded-xl p-3 inline-block mb-6">
               <Image
-                src="/logo.png"
-                alt="Via Pet"
+                src="/petlogo.webp"
+                alt="Sua Pet"
                 width={140}
                 height={66}
                 className="h-12 w-auto"
               />
             </div>
             <p className="text-sm text-gray-400 leading-relaxed mb-6">
-              Sua loja pet favorita em Goiânia. Produtos de qualidade e
+              Sua loja pet favorita em Boa Vista. Produtos de qualidade e
               atendimento especializado desde 2018.
             </p>
             <nav className="flex flex-col gap-2">
@@ -63,16 +63,16 @@ export default function Footer() {
             <h4 className="text-lg font-bold mb-6">Contato</h4>
             <div className="space-y-4">
               <Link
-                href="tel:6230886233"
+                href="tel:1100000000"
                 className="flex items-center gap-3 text-sm text-gray-400 hover:text-[#3CBDAF] transition-colors group"
               >
                 <div className="w-8 h-8 rounded-lg bg-[#3CBDAF]/10 flex items-center justify-center flex-shrink-0 group-hover:bg-[#3CBDAF]/20 transition-colors">
                   <Phone className="w-4 h-4 text-[#3CBDAF]" />
                 </div>
-                (62) 3088-6233
+                (11) 0000-0000
               </Link>
               <Link
-                href="https://wa.me/556292905701"
+                href="https://wa.me/5511199999999"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 text-sm text-gray-400 hover:text-[#3CBDAF] transition-colors group"
@@ -80,25 +80,25 @@ export default function Footer() {
                 <div className="w-8 h-8 rounded-lg bg-[#3CBDAF]/10 flex items-center justify-center flex-shrink-0 group-hover:bg-[#3CBDAF]/20 transition-colors">
                   <Phone className="w-4 h-4 text-[#3CBDAF]" />
                 </div>
-                (62) 9 9290-5701
+                (11) 19999-9999
               </Link>
               <Link
-                href="mailto:contato@viapet.com.br"
+                href="mailto:contato@suapet.vercel.app"
                 className="flex items-center gap-3 text-sm text-gray-400 hover:text-[#3CBDAF] transition-colors group"
               >
                 <div className="w-8 h-8 rounded-lg bg-[#3CBDAF]/10 flex items-center justify-center flex-shrink-0 group-hover:bg-[#3CBDAF]/20 transition-colors">
                   <Mail className="w-4 h-4 text-[#3CBDAF]" />
                 </div>
-                contato@viapet.com.br
+                contato@suapet.vercel.app
               </Link>
               <div className="flex items-start gap-3 text-sm text-gray-400">
                 <div className="w-8 h-8 rounded-lg bg-[#3CBDAF]/10 flex items-center justify-center flex-shrink-0 mt-0.5">
                   <MapPin className="w-4 h-4 text-[#3CBDAF]" />
                 </div>
                 <span>
-                  Praça Wilson Sales, 44 - Nova Suíça
+                  Rua Peterson Sabaró, 44 - Vila Russa
                   <br />
-                  Goiânia - GO | CEP: 74280-370
+                  Boa Vista - RR
                 </span>
               </div>
             </div>
@@ -109,29 +109,29 @@ export default function Footer() {
             <h4 className="text-lg font-bold mb-6">Redes Sociais</h4>
             <div className="flex gap-3">
             <Link
-              href="https://www.facebook.com/viapetnovasuica/"
+              href="https://www.facebook.com/suapetvilarussa/"
               target="_blank"
               rel="noopener noreferrer"
               className="w-12 h-12 rounded-xl bg-gray-800 flex items-center justify-center hover:bg-[#3CBDAF] hover:scale-110 transition-all"
-              aria-label="Facebook da Via Pet"
+              aria-label="Facebook da Sua Pet"
             >
               <FaFacebook className="w-5 h-5" />
             </Link>
             <Link
-              href="https://www.instagram.com/viapet/"
+              href="https://www.instagram.com/suapet/"
               target="_blank"
               rel="noopener noreferrer"
               className="w-12 h-12 rounded-xl bg-gray-800 flex items-center justify-center hover:bg-[#3CBDAF] hover:scale-110 transition-all"
-              aria-label="Instagram da Via Pet"
+              aria-label="Instagram da Sua Pet"
             >
               <FaInstagram className="w-5 h-5" />
             </Link>
             <Link
-              href="https://wa.me/556292905701"
+              href="https://wa.me/5511199999999"
               target="_blank"
               rel="noopener noreferrer"
               className="w-12 h-12 rounded-xl bg-gray-800 flex items-center justify-center hover:bg-[#3CBDAF] hover:scale-110 transition-all"
-              aria-label="WhatsApp da Via Pet"
+              aria-label="WhatsApp da Sua Pet"
             >
               <FaWhatsapp className="w-5 h-5" />
             </Link>
@@ -142,7 +142,7 @@ export default function Footer() {
         {/* Barra inferior */}
         <div className="mt-14 pt-8 border-t border-gray-800 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-sm text-gray-500">
-            © {new Date().getFullYear()} Via Pet. Todos os direitos reservados.
+            © {new Date().getFullYear()} Sua Pet. Todos os direitos reservados.
           </p>
         </div>
       </div>

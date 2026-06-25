@@ -5,9 +5,9 @@ import { ProdutoCard } from "@/components/produto-card";
 export const metadata: Metadata = {
   title: "Produtos para Coelhos e Roedores",
   description:
-    "Rações, fenos, gaiolas, bebedouros e acessórios para coelhos, hamsters e outros roedores. Entrega rápida em Goiânia.",
+    "Rações, fenos, gaiolas, bebedouros e acessórios para coelhos, hamsters e outros roedores. Entrega rápida em Boa Vista.",
   alternates: {
-    canonical: "https://viapet.net/produtos/coelhos-e-roedores",
+    canonical: "https://suapet.vercel.app/produtos/coelhos-e-roedores",
   },
 };
 
@@ -17,24 +17,28 @@ const produtos = [
     preco: "R$ 49,90",
     parcela: "ou 3x de R$ 16,63",
     categoria: "Coelhos e Roedores",
+    imagem: "/produtos/racao-nutropica-coelhos-5kg.webp",
   },
   {
     nome: "Bebedouro Automático para Roedores",
     preco: "R$ 24,90",
     parcela: "ou 2x de R$ 12,45",
     categoria: "Coelhos e Roedores",
+    imagem: "/produtos/bebedouro-para-roedores.webp",
   },
   {
     nome: "Gaiola Hamster Com Acessórios",
     preco: "R$ 149,90",
     parcela: "ou 6x de R$ 24,98",
     categoria: "Coelhos e Roedores",
+    imagem: "/produtos/gaiola-hamster-com-acessorios.webp",
   },
   {
     nome: "Feno Premium Coelhos 1kg",
     preco: "R$ 34,90",
     parcela: "ou 2x de R$ 17,45",
     categoria: "Coelhos e Roedores",
+    imagem: "/produtos/feno-premium-coelhos-1kg.webp",
   },
 ];
 

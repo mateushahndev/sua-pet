@@ -3,9 +3,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Termos de Uso",
   description:
-    "Termos de Uso do site Via Pet. Leia atentamente as condições de uso dos nossos serviços.",
+    "Termos de Uso do site Sua Pet. Leia atentamente as condições de uso dos nossos serviços.",
   alternates: {
-    canonical: "https://viapet.net/termos-de-uso",
+    canonical: "https://suapet.vercel.app/termos-de-uso",
   },
 };
 
@@ -29,7 +29,7 @@ export default function TermosUsoPage() {
                 1. Aceitação dos Termos
               </h2>
               <p>
-                Ao acessar e utilizar o site da Via Pet, você concorda com estes
+                Ao acessar e utilizar o site da Sua Pet, você concorda com estes
                 Termos de Uso. Caso não concorde com alguma das condições aqui
                 estabelecidas, recomendamos que não utilize nossos serviços.
               </p>
@@ -40,7 +40,7 @@ export default function TermosUsoPage() {
                 2. Descrição do Serviço
               </h2>
               <p>
-                O site Via Pet é uma plataforma institucional e informativa que
+                O site Sua Pet é uma plataforma institucional e informativa que
                 apresenta produtos e serviços para animais de estimação. As
                 compras são finalizadas através do WhatsApp, mediante contato
                 direto com nossa equipe de atendimento.
@@ -93,7 +93,7 @@ export default function TermosUsoPage() {
               </h2>
               <p>
                 Todo o conteúdo deste site — incluindo textos, imagens, logos,
-                ícones e design — é de propriedade da Via Pet ou de seus
+                ícones e design — é de propriedade da Sua Pet ou de seus
                 respectivos licenciadores e está protegido por leis de direitos
                 autorais e propriedade intelectual.
               </p>
@@ -115,7 +115,7 @@ export default function TermosUsoPage() {
                 7. Limitação de Responsabilidade
               </h2>
               <p>
-                A Via Pet não se responsabiliza por:
+                A Sua Pet não se responsabiliza por:
               </p>
               <ul className="list-disc pl-5 mt-2 space-y-1">
                 <li>
@@ -153,11 +153,11 @@ export default function TermosUsoPage() {
                 Em caso de dúvidas sobre estes Termos de Uso, entre em contato:
               </p>
               <p className="mt-2">
-                E-mail: contato@viapet.com.br
+                E-mail: contato@suapet.vercel.app
                 <br />
-                WhatsApp: (62) 9 9290-5701
+                WhatsApp: (11) 19999-9999
                 <br />
-                Telefone: (62) 3088-6233
+                Telefone: (11) 0000-0000
               </p>
             </div>
           </div>

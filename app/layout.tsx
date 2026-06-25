@@ -8,24 +8,24 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
   title: {
-    default: "Via Pet | Pet Shop em Goiânia — Produtos de qualidade para seu pet",
-    template: "%s | Via Pet",
+    default: "Sua Pet | Pet Shop em Boa Vista — Produtos de qualidade para seu pet",
+    template: "%s | Sua Pet",
   },
   description:
-    "Pet shop em Goiânia desde 2018. Rações premium, medicamentos, acessórios e atendimento especializado. Preços justos, entrega rápida e cuidado de verdade para seu melhor amigo.",
+    "Pet shop em Boa Vista desde 2018. Rações premium, medicamentos, acessórios e atendimento especializado. Preços justos, entrega rápida e cuidado de verdade para seu melhor amigo.",
   keywords: [
-    "pet shop goiânia",
+    "pet shop Boa Vista",
     "ração para cachorro",
     "ração para gato",
     "acessórios para pet",
     "medicamentos veterinários",
-    "banho e tosa goiânia",
+    "banho e tosa Boa Vista",
     "produtos para aves",
-    "loja de animais goiânia",
+    "loja de animais Boa Vista",
   ],
-  authors: [{ name: "Via Pet" }],
-  creator: "Via Pet",
-  publisher: "Via Pet",
+  authors: [{ name: "Sua Pet" }],
+  creator: "Sua Pet",
+  publisher: "Sua Pet",
   robots: {
     index: true,
     follow: true,
@@ -40,25 +40,25 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "pt_BR",
-    url: "https://viapet.net",
-    siteName: "Via Pet",
-    title: "Via Pet | Pet Shop em Goiânia — Produtos de qualidade para seu pet",
+    url: "https://suapet.vercel.app",
+    siteName: "Sua Pet",
+    title: "Sua Pet | Pet Shop em Boa Vista — Produtos de qualidade para seu pet",
     description:
-      "Pet shop em Goiânia desde 2018. Rações premium, medicamentos, acessórios e atendimento especializado.",
+      "Pet shop em Boa Vista desde 2018. Rações premium, medicamentos, acessórios e atendimento especializado.",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Via Pet - Pet Shop em Goiânia",
+        alt: "Sua Pet - Pet Shop em Boa Vista",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Via Pet | Pet Shop em Goiânia",
+    title: "Sua Pet | Pet Shop em Boa Vista",
     description:
-      "Pet shop em Goiânia desde 2018. Rações premium, medicamentos, acessórios e atendimento especializado.",
+      "Pet shop em Boa Vista desde 2018. Rações premium, medicamentos, acessórios e atendimento especializado.",
     images: ["/og-image.jpg"],
   },
 };

@@ -5,9 +5,9 @@ import { Phone, MapPin, Clock, Star, Shield, Heart } from "lucide-react";
 export const metadata: Metadata = {
   title: "Sobre",
   description:
-    "Conheça a história da Via Pet, pet shop em Goiânia desde 2018. Paixão por animais, produtos de qualidade e atendimento especializado.",
+    "Conheça a história da Sua Pet, pet shop em Boa Vista desde 2018. Paixão por animais, produtos de qualidade e atendimento especializado.",
   alternates: {
-    canonical: "https://viapet.net/sobre",
+    canonical: "https://suapet.vercel.app/sobre",
   },
 };
 
@@ -25,11 +25,11 @@ export default function SobrePage() {
               Nossa História
             </span>
             <h1 className="text-4xl lg:text-6xl font-extrabold text-gray-900 mt-4 mb-6">
-              Sobre a Via Pet
+              Sobre a Sua Pet
             </h1>
             <p className="text-lg text-gray-500 leading-relaxed">
               Desde 2018 cuidando do seu melhor amigo com produtos de qualidade
-              e atendimento especializado em Goiânia.
+              e atendimento especializado em Boa Vista.
             </p>
           </div>
         </div>
@@ -45,8 +45,8 @@ export default function SobrePage() {
             </h2>
             <div className="space-y-4 text-gray-600 leading-relaxed text-lg">
               <p>
-                A Via Pet nasceu da paixão por animais e do desejo de
-                oferecer produtos de qualidade para os pets de Goiânia. Somos
+                A Sua Pet nasceu da paixão por animais e do desejo de
+                oferecer produtos de qualidade para os pets de Boa Vista. Somos
                 uma loja familiar que entende que cada pet é único e merece o
                 melhor.
               </p>
@@ -123,7 +123,7 @@ export default function SobrePage() {
                   <MapPin className="w-5 h-5 text-[#3CBDAF]" />
                 </div>
                 <span className="text-sm">
-                  Praça Wilson Sales, 44 - Nova Suíça, Goiânia - GO
+                  Rua Peterson Sabaró, 44 - Vila Russa, Boa Vista - RR
                 </span>
               </div>
               <div className="flex items-center justify-center gap-4 text-gray-600">
@@ -136,11 +136,11 @@ export default function SobrePage() {
               </div>
             </div>
             <Link
-              href="https://wa.me/556292905701"
+              href="https://wa.me/5511199999999"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#20bd5a] text-white px-8 py-4 rounded-xl text-base font-semibold shadow-lg shadow-[#25D366]/25 hover:shadow-xl hover:shadow-[#25D366]/30 transition-all hover:-translate-y-0.5"
-              aria-label="Falar com a Via Pet no WhatsApp"
+              aria-label="Falar com a Sua Pet no WhatsApp"
             >
               <Phone className="w-5 h-5" />
               Falar no WhatsApp

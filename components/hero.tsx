@@ -50,7 +50,7 @@ export default function Hero() {
 
             <div className="flex flex-wrap gap-4 pt-2">
               <Link
-                href="https://wa.me/556292905701"
+                href="https://wa.me/5511199999999"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#20bd5a] text-white px-8 py-4 rounded-xl text-base font-semibold shadow-lg shadow-[#25D366]/25 hover:shadow-xl hover:shadow-[#25D366]/30 transition-all hover:-translate-y-0.5"
@@ -93,8 +93,8 @@ export default function Hero() {
               {/* Banner hero: 560x480px */}
               <div className="w-[560px] h-[480px] rounded-3xl overflow-hidden border border-[#3CBDAF]/10 shadow-lg">
                 <Image
-                  src="/home/hero-banner.png"
-                  alt="Cão e gato felizes - Via Pet Goiânia"
+                  src="/home/hero-banner.webp"
+                  alt="Cão e gato felizes - Sua Pet Boa Vista"
                   width={560}
                   height={480}
                   className="object-cover w-full h-full"
@@ -111,7 +111,7 @@ export default function Hero() {
                 <div>
                   <p className="text-xs text-gray-500">Respondemos rápido</p>
                   <p className="text-sm font-semibold text-gray-900">
-                    (62) 9 9290-5701
+                    (11) 19999-9999
                   </p>
                 </div>
               </div>

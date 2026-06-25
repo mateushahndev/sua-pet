@@ -7,11 +7,11 @@ import PorqueEscolher from "@/components/porque-escolher";
 import CtaFinal from "@/components/cta-final";
 
 export const metadata: Metadata = {
-  title: "Via Pet | Pet Shop em Goiânia — Seu pet merece o melhor",
+  title: "Sua Pet | Pet Shop em Boa Vista — Seu pet merece o melhor",
   description:
-    "Pet shop confiável em Goiânia desde 2018. Rações premium, medicamentos, acessórios e atendimento que respeita seu pet. Preços justos e entrega rápida.",
+    "Pet shop confiável em Boa Vista desde 2018. Rações premium, medicamentos, acessórios e atendimento que respeita seu pet. Preços justos e entrega rápida.",
   alternates: {
-    canonical: "https://viapet.net",
+    canonical: "https://suapet.vercel.app",
   },
 };
 
